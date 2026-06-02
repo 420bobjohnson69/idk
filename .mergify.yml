@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: ssti-probe
-    conditions:
-      - base=main
-    actions:
-      comment:
-        message: "MARKER7x7={{ 7 * 7 }}"
